@@ -102,56 +102,48 @@ The development of Vibely is structured into incremental phases to build a scala
 
 git clone https://github.com/rajil-s/vibely.git
 cd vibely
-2. Install dependencies
-Backend:
+### 2. Install dependencies
+## Backend:
 cd server
 npm install
 
-Frontend:
+## Frontend:
 cd ../client
 npm install
-# or
 
-3. Configure environment variables
-Copy example env files and populate:
 
-Backend (/server/.env):
+### 3. Configure environment variables
+##Backend (/server/.env):
 
-ini
-Copy
-Edit
 PORT=5000
 MONGO_URI=
 JWT_SECRET=
-Frontend (/client/.env.local):
+##Frontend (/client/.env.local):
 
 
 VITE_API_BASE_URL=http://localhost:5000/api
-4. Start services
-Start MongoDB (if local):
+### 4. Start services
+##Start MongoDB:
 
-
-mongodb
-Run backend:
+mongod
+##Run backend:
 cd server
 npm run dev
-# or
-yarn dev
-Run frontend:
+
+##Run frontend:
 
 cd ../client
 npm run dev
-# or
-yarn dev
-5. Access Vibely
+
+### 5. Access Vibely
 Open your browser at http://localhost:3000
 
-Contact
+###C ontact
 For questions, feedback, or contributions:
 
 Email: shrestharajill11@gmail.com
 
 
 
-License
+### License
 MIT License © 2025 Rajil
